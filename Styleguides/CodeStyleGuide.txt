@@ -20,3 +20,6 @@ be descriptive but concise - write what the script is doing or its goal is as th
 
 - function naming conventions:
 same as script, what the goal or usage of the function is.
+
+
+add ur first name in front of everything
