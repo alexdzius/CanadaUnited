@@ -1,0 +1,22 @@
+StyleGuide for Code:
+- camelCase variables functions and script names
+
+- comment every line who's use is not directly visible
+something like an i++ does not need to be commented
+
+- header include:
+name of file
+name of writer
+last edited
+description
+
+- curly brackets: 
+function function()
+{
+}
+
+- script naming conventions:
+be descriptive but concise - write what the script is doing or its goal is as the script name
+
+- function naming conventions:
+same as script, what the goal or usage of the function is.
