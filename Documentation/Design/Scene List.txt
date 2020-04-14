@@ -3,3 +3,5 @@ Alex: Falling down and trying to press space to hit things horizontally aligned 
 Liam: Catching a moving butterfly with a net that moves via arrow keys
 Harry: Catching a falling hamburger on a plate that moves horizontally using arrow keys
 Josh: Dodging moving obstacles with various behaviors using the arrow keys
+CJ: Moving a crosshair with arrow keys to a target and pressing space to hit it
+Marvin: An arrow keys platformer where you get to the end of the level
