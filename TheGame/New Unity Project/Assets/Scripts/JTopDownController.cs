@@ -83,6 +83,7 @@ public class JTopDownController : MonoBehaviour {
 				}
 			}
 			// Transform based on current velocity
+			Debug.Log("Velocity: (" + xv + ", " + yv + ")");
 			transform.position = new Vector3(transform.position.x + xv, transform.position.y + yv, transform.position.z);
 		}
 	}
