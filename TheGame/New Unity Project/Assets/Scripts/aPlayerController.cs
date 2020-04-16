@@ -29,9 +29,12 @@ public class aPlayerController : MonoBehaviour
             Instantiate(aProjectile[1], new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
             aNegative = false;
         }
-        if(aScore == 3 && amyRB.transform.position.y == -6)
+        if(aScore == 3 && amyRB.transform.position.y <= -8)
         {
             print("u won B");
+            aGameManager.aTotalScore += aScore;
+            aGameManager.aAllowedChange = true;
+            aGameManager.aLevel = aGameManager.aCurrentLevel.alex;
             // proceed to next level
         }
     }
