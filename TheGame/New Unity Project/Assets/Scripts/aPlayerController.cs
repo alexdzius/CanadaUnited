@@ -12,7 +12,7 @@ public class aPlayerController : MonoBehaviour
     void Start()
     {
         amyRB = GetComponent<Rigidbody2D>();
-        amyRB.velocity = new Vector3(0, -2, 0);
+        amyRB.velocity = new Vector3(0, -GameManager.aTotalSpeed, 0);
         aScore = 0;
     }
 
@@ -32,9 +32,13 @@ public class aPlayerController : MonoBehaviour
         if(aScore == 3 && amyRB.transform.position.y <= -8)
         {
             print("u won B");
-            aGameManager.aTotalScore += aScore;
-            aGameManager.aAllowedChange = true;
-            aGameManager.aLevel = aGameManager.aCurrentLevel.alex;
+            GameManager.aTotalScore += aScore;
+            print("score");
+            print(GameManager.aTotalScore);
+            print("speed");
+            print(GameManager.aTotalSpeed);
+            GameManager.aAllowedChange = true;
+            GameManager.aLevel = GameManager.aCurrentLevel.alex;
             // proceed to next level
         }
     }

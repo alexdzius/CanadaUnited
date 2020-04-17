@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class aGameManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public enum aCurrentLevel {alex, cj, harry, josh, liam, marvin, astart};
     public static bool aAllowedChange = false;
@@ -18,9 +18,10 @@ public class aGameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        aTotalSpeed = aTotalScore / 10 * aTotalSpeed;
+        
         if (aAllowedChange)
         {
+            aTotalSpeed = (float) aTotalScore / 4 * aTotalSpeed;
             aAllowedChange = false;
             switch (aLevel)
             {
