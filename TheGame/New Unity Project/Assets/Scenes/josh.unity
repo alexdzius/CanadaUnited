@@ -392,6 +392,8 @@ MonoBehaviour:
   Player: {fileID: 531452311}
   BasicEnemy: {fileID: 1353113190736552103, guid: 5fd9a38b8e2d751409ede06eefcc6e4f,
     type: 3}
+  BeamEnemy: {fileID: 8669764311303305375, guid: 068cf1c2f4fdb0949ba5d527b878836a,
+    type: 3}
   Difficulty: 3
   MinimumDistance: 5
 --- !u!4 &1541009055
