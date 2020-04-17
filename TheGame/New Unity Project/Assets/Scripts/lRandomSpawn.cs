@@ -16,14 +16,12 @@ public class lRandomSpawn : MonoBehaviour
     public bool xRandom;
     public bool yRandom;
     Vector3 spawnPos;
-    GameObject obj;
-    public string spawnedObject;
+    public GameObject obj;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        obj = GameObject.Find(spawnedObject);
         if(xRandom)
         {
             //if the player chooses, set xPos to a random number
