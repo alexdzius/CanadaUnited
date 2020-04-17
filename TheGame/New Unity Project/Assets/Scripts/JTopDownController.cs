@@ -54,7 +54,6 @@ public class JTopDownController : MonoBehaviour {
 		yv = vel.y;
 	}
 
-	// Update is called once per frame
 	void FixedUpdate() {
 		// Only run if movement is enabled
 		if(isEnabled) {
