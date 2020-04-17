@@ -51,6 +51,7 @@ public class JTopDownController : MonoBehaviour {
 			// Get user movement input
 			float moveX = Input.GetAxisRaw("Horizontal");
 			float moveY = Input.GetAxisRaw("Vertical");
+			Debug.Log("moveY: " + moveY);
 			// Normalize the motion vector so we don't get YOTE diagonally
 			float len = moveX * moveX + moveY * moveY;
 			// If we're accelerating, accelerate. Otherwise, decelerate
