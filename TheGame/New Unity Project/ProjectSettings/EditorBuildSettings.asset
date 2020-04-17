@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/alex.unity
+    guid: a177c489074e9904aafdf02c10c46867
+  - enabled: 1
+    path: Assets/Scenes/cj.unity
+    guid: 3af1c640536d4e64e8747d10d28ca0bd
+  - enabled: 1
+    path: Assets/Scenes/harry.unity
+    guid: e4de8d9397c51874a8e43a7f9a0e1cc4
+  - enabled: 1
+    path: Assets/Scenes/josh.unity
+    guid: c50d51af68a2bad409343fbde52e8c29
+  - enabled: 1
+    path: Assets/Scenes/liam.unity
+    guid: 423b3d128048c75478a78778b38931f1
+  - enabled: 1
+    path: Assets/Scenes/marvin.unity
+    guid: 1aa146dbcfe6e0b4693cf6a6f34f658a
+  - enabled: 1
+    path: Assets/Scenes/dead.unity
+    guid: 7e74e6da61ebcca4b9e29218b7c7a9b6
   m_configObjects: {}

@@ -41,5 +41,15 @@ public class aPlayerController : MonoBehaviour
             GameManager.aLevel = GameManager.aCurrentLevel.alex;
             // proceed to next level
         }
+        else if (aScore < 3 && amyRB.transform.position.y <= -8)
+        {
+            GameManager.aTotalScore += aScore;
+            GameManager.aAllowedChange = true;
+            GameManager.aLevel = GameManager.aCurrentLevel.adead;
+        }
+        else
+        {
+
+        }
     }
 }
